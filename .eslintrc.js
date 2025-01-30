@@ -51,6 +51,10 @@ module.exports = {
                 pattern: '@(~app|~shared|~features|~pages|~entities)/**',
                 group: 'internal',
               },
+              {
+                pattern: '~/lib/**',
+                group: 'internal',
+              },
             ],
             pathGroupsExcludedImportTypes: ['internal', 'react'],
             'newlines-between': 'always',
